@@ -1,0 +1,8 @@
+{
+    "Name": "Pendu",
+    "Description": "Mini-jeu de pendu",
+    "Version": "1.0.0",
+    "Prefix": "!pendu",
+    "File": "Pendu",
+    "Status": "ENABLED"
+}
