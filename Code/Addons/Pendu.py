@@ -6,6 +6,8 @@ import string
 import discord
 from discord import *
 
+print("ok")
+
 class Word():
 	def __init__(self, word):
 		self.word = word
