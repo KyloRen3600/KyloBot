@@ -10,7 +10,6 @@ from Profiles import *
 from Addon import *
 import json
 
-
 import tkinter
 from tkinter import *
 from tkinter.messagebox import *
