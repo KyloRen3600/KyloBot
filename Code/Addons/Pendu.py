@@ -37,7 +37,7 @@ def choice_word():
 def build_embed(user, channel, color):
 
 	word = games["{0}".format(channel.id)]
-	embed = discord.Embed(title="[Pendu]", url="https://www.regles-jeux-plein-air.com/regle-du-pendu/", color=color)
+	embed = discord.Embed(title="[Pendu]", url="https://github.com/KyloRen3600/KyloBot/blob/master/Addons/Pendu/README.MD", color=color)
 	embed.set_author(name=user.name, icon_url=user.avatar_url)
 	if word.used_lifes < 10:
 		embed.set_thumbnail(url="https://raw.githubusercontent.com/KyloRen3600/KyloBot/master/Addons/Pendu/pendu-etape0{0}.gif".format(word.used_lifes))
