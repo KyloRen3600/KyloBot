@@ -6,7 +6,7 @@ from discord import *
 
 def build_embed(message, color):
 	embed = discord.Embed(title="[PFC]", color=color)
-	embed.set_thumbnail(url="https://dailygeekshow.com/wp-content/uploads/2015/03/shutterstock_175134956.jpg")
+	embed.set_thumbnail(url="https://github.com/KyloRen3600/KyloBot/blob/master/Addons/PFC/PFC.jpg?raw=true")
 	embed.set_author(name=message.author.name, icon_url=message.author.avatar_url)
 	embed.set_footer(text="Développé par KyloRen3600")
 	return embed

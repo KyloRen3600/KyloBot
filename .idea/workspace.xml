@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b087e73f-1abf-416b-848e-69b38376505f" name="Default Changelist" comment="patch">
-      <change beforePath="$PROJECT_DIR$/Code/Profiles/ZenosiaBot.json" beforeDir="false" />
-    </list>
+    <list default="true" id="b087e73f-1abf-416b-848e-69b38376505f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/Code/Addons/PFC.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="8" column="108" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="108" />
+              <caret line="8" column="107" selection-start-line="8" selection-start-column="107" selection-end-line="8" selection-end-column="107" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -79,8 +77,8 @@
         <option value="$PROJECT_DIR$/Code/Addons/src/README.MD" />
         <option value="$PROJECT_DIR$/Code/Addons/PFC.json" />
         <option value="$PROJECT_DIR$/Code/Addons/Pendu.py" />
-        <option value="$PROJECT_DIR$/Code/Addons/PFC.py" />
         <option value="$PROJECT_DIR$/Code/Profiles/KyloBot.json" />
+        <option value="$PROJECT_DIR$/Code/Addons/PFC.py" />
       </list>
     </option>
   </component>
@@ -110,6 +108,12 @@
               <item name="KyloBot" type="b2602c69:ProjectViewProjectNode" />
               <item name="KyloBot" type="462c0819:PsiDirectoryNode" />
               <item name="Addons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KyloBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KyloBot" type="462c0819:PsiDirectoryNode" />
+              <item name="Addons" type="462c0819:PsiDirectoryNode" />
+              <item name="PFC" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="KyloBot" type="b2602c69:ProjectViewProjectNode" />
@@ -232,7 +236,21 @@
       <option name="project" value="LOCAL" />
       <updated>1551869534574</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added src PFC">
+      <created>1551870267705</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1551870267705</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added src PFC">
+      <created>1551870353323</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1551870353323</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -312,7 +330,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="added PFC Addon" />
     <MESSAGE value="patch" />
-    <option name="LAST_COMMIT_MESSAGE" value="patch" />
+    <MESSAGE value="added src PFC" />
+    <option name="LAST_COMMIT_MESSAGE" value="added src PFC" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Code/Addons/src/words.txt">
@@ -378,10 +397,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Addons/PFC/PFC.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Code/Addons/PFC.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="8" column="108" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="108" />
+          <caret line="8" column="107" selection-start-line="8" selection-start-column="107" selection-end-line="8" selection-end-column="107" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
