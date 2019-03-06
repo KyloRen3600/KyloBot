@@ -13,10 +13,8 @@ def build_embed(message, color):
 
 def play(message, item):
 	item = item.lower()
-
 	choices = ["Pierre", "Feuille", "Ciseaux"]
 	i = choice(choices)
-
 	if item == "feuille" or item == "f":
 		item = "Feuille"
 		if i == "Pierre":
@@ -84,8 +82,7 @@ def init(window, client, addon):
 				embed = play(message, args[1])
 				await client.send_message(message.channel, embed=embed)
 
-			except Exception as E:
-				print(E)
+			except:
 				embed = build_embed(message, 0xffff00)
 				embed.add_field(name="Veuillez proposer une attaque !", value="Utilisation: \"{0} <p/f/c>\".".format(addon.prefix))
 				await client.send_message(message.channel, embed=embed)
