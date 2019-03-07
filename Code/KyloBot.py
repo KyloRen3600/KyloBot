@@ -34,8 +34,6 @@ class KyloBot(commands.Bot):
 		super().__init__(*args, **kwargs)
 		self.running = False
 		self.commands = []
-		# create the background task and run it in the background
-		#self.bg_task = self.loop.create_task(self.bg_task())
 	async def on_ready(self):
 
 		global window
@@ -51,8 +49,6 @@ class KyloBot(commands.Bot):
 			window.frame_general.servers_list.insert(END, server.name)
 
 		await self.change_presence(game=discord.Game(name="Fait {0} pour obtenir de l'aide".format(self.profile.help), url="https://twitch.tv/KyloBot", type=1))
-
-		#await self.send_message(discord.Object(id='547098879007522816'), '{0} Bot lancé...'.format(get_now()))
 
 	async def on_message(self, message):
 		if message.author != self.user:
@@ -140,8 +136,10 @@ class ClientWindow(tkinter.Tk):
 		self.geometry("1000x500")
 		self.menubar = MenuBar(self)
 		self.open_general()
-
-		self.NothingGames = ttk.Label(self, text="© NothingGames 2019").pack(side=BOTTOM)
+		with open("Version.json", 'r') as f:
+			data = json.load(f)
+			local_version = data["Version"]
+		self.NothingGames = ttk.Label(self, text="Version {0} © NothingGames 2019".format(local_version)).pack(side=BOTTOM)
 
 	def print_message(self, message):
 		self.frame_general.console.print_message(message)

@@ -45,6 +45,5 @@ if version != local_version:
 		except Exception as e:
 			showerror("Échec de la mise à jour", "Erreur: {0}".format(e))
 
-
 root.destroy()
 import KyloBot
