@@ -36,6 +36,7 @@ with open("Version.json", 'r') as f:
 	data = json.load(f)
 	local_version = data["Version"]
 root = Tk()
+root.iconbitmap("src/Discord.ico")
 root.withdraw()
 if version != local_version:
 	ask = askyesno("Mise à jour disponible !", "Voulez vous l'installer ?")
