@@ -65,7 +65,11 @@ class Profile():
 			try:
 				self.prefix = datastore["Prefix"]
 			except:
-				self.prefix = ""
+				self.prefix = "!"
+			try:
+				self.help = datastore["HelpCommand"]
+			except:
+				self.help = "help"
 			try:
 				self.token = datastore["Token"]
 			except:
