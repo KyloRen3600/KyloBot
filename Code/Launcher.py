@@ -42,7 +42,6 @@ if version != local_version:
 	if ask == True:
 		try:
 			download_update()
-			showinfo("Mise à jour réussie !", "Veuillez redémarrer")
 		except Exception as e:
 			showerror("Échec de la mise à jour", "Erreur: {0}".format(e))
 
