@@ -1,0 +1,1 @@
+{"Name": "Pierre Feuille Ciseaux", "Description": "Et non le puit n'existe pas", "Version": "1.0.0", "Prefix": "!pfc", "File": "PFC", "Status": "ENABLED", "HelpCommand": "!pfc help", "HelpCommandDescription": "Aide sur pierre, feuille, ciseaux", "Developer": "KyloRen3600", "Icon": "Addons/src/Icons/PFC.png"}

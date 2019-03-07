@@ -1,0 +1,1 @@
+{"Name": "Pendu", "Description": "Mini-jeu de pendu", "Version": "1.0.0", "Prefix": "!pendu", "File": "Pendu", "Status": "ENABLED", "HelpCommand": "!pendu help", "HelpCommandDescription": "Aide sur le pendu", "Developer": "KyloRen3600", "Icon": "Addons/src/Icons/Pendu.gif"}
