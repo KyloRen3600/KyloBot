@@ -133,6 +133,7 @@ class ClientWindow(tkinter.Tk):
 	def __init__(self, *args, **kwargs):
 		super().__init__(*args, **kwargs)
 		self.title("Kylo's Bot Manager")
+		self.iconbitmap("src/Discord.ico")
 		self.geometry("1000x500")
 		self.menubar = MenuBar(self)
 		self.open_general()
