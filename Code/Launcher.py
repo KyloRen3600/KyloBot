@@ -1,5 +1,6 @@
 import urllib.request
 import json
+from tkinter import *
 from tkinter.messagebox import *
 import zipfile
 from shutil import copyfile
@@ -36,6 +37,8 @@ with open("Version.json", 'r') as f:
 	local_version = data["Version"]
 
 if version != local_version:
+	root = Tk()
+	root.withdraw()
 	ask = askyesno("Mise à jour disponible !", "Voulez vous l'installer ?")
 	if ask == True:
 		try:
