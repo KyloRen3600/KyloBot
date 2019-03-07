@@ -24,10 +24,10 @@ class ProfilesListBox(Combobox):
 	def __init__(self, *args, **kwargs):
 		super().__init__(*args, **kwargs)
 		load_profiles()
+		self.profiles_names = []
+		self.profiles_files = []
 		global profiles
 		if len(profiles) > 0:
-			self.profiles_names = []
-			self.profiles_files = []
 			for profile in profiles:
 				with open(profile, 'r') as f:
 					datastore = json.load(f)
