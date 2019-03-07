@@ -178,7 +178,25 @@ class ClientWindow(tkinter.Tk):
 		else:
 			print_message("[Erreur] Impossible lorsque le Bot est lancé !")
 
+	def open_changelog(self):
+		global client
+		if client.running == False:
+			self.current.pack_forget()
+			self.frame_changelog = ChangelogFrame(self)
+			self.frame_changelog.pack(expand=YES, fill=BOTH, side=RIGHT)
+			self.current = self.frame_changelog
+		else:
+			print_message("[Erreur] Impossible lorsque le Bot est lancé !")
 
+
+class ChangelogFrame(ScrolledText):
+	def __init__(self, *args, **kwargs):
+		super().__init__(*args, **kwargs)
+		self.config(font=("Courrier"))
+		with open("Changelog.txt", "r", encoding='UTF-8') as file:
+			text = file.read()
+		self.insert(INSERT, text)
+		self.config(state=DISABLED)
 
 
 class GeneralFrame(tkinter.Frame):
@@ -489,6 +507,7 @@ class MenuBar(tkinter.Menu):
 		self.add_cascade(label="Bot", command=args[0].open_general)
 		self.add_cascade(label="Configuration", command=args[0].open_configuration)
 		self.add_cascade(label="Addons", command=args[0].open_addons)
+		self.add_cascade(label="Changelog", command=args[0].open_changelog)
 		args[0].config(menu=self)
 
 
@@ -564,7 +583,6 @@ def show_window():
 def print_message(message):
 	global window
 	window.frame_general.console.print_message(message)
-
 
 
 stop = False
