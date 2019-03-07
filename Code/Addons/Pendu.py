@@ -55,6 +55,10 @@ def init(window, client, addon):
 	async def on_message(message):
 		args = message.content.split(" ")
 		if message.content.startswith(addon.prefix):
+			try:
+				argument = args[1]
+			except:
+				return
 			if args[1] == "start":
 				try:
 					word = games["{0}".format(message.channel.id)]
@@ -104,7 +108,8 @@ def init(window, client, addon):
 					await client.send_message(message.channel, embed=embed)
 					return
 				try:
-					proposal = args[2]
+					proposal = args[2].lower()
+					args[2] = args[2].lower()
 				except:
 					embed = build_embed(message.author, message.channel, 0xffff00)
 					embed.add_field(name="Veuillez préciser une lettre/un mot !", value="{0} p <mot/lettre>".format(addon.prefix), inline=True)
