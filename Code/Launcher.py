@@ -35,10 +35,9 @@ with urllib.request.urlopen("https://raw.githubusercontent.com/KyloRen3600/KyloB
 with open("Version.json", 'r') as f:
 	data = json.load(f)
 	local_version = data["Version"]
-
+root = Tk()
+root.withdraw()
 if version != local_version:
-	root = Tk()
-	root.withdraw()
 	ask = askyesno("Mise à jour disponible !", "Voulez vous l'installer ?")
 	if ask == True:
 		try:
@@ -46,5 +45,7 @@ if version != local_version:
 			showinfo("Mise à jour réussie !", "Veuillez redémarrer")
 		except Exception as e:
 			showerror("Échec de la mise à jour", "Erreur: {0}".format(e))
-else:
-	import KyloBot
+
+
+root.destroy()
+import KyloBot
