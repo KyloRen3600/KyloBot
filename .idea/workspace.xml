@@ -2,61 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b087e73f-1abf-416b-848e-69b38376505f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/.idea/KyloBot.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/.idea/jsonSchemas.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Addons/PFC/PFC.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Addons/Pendu/README.MD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Addons/Pendu/pendu-etape00.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Addons/Pendu/pendu-etape01.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Addons/Pendu/pendu-etape02.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Addons/Pendu/pendu-etape03.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Addons/Pendu/pendu-etape04.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Addons/Pendu/pendu-etape05.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Addons/Pendu/pendu-etape06.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Addons/Pendu/pendu-etape07.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Addons/Pendu/pendu-etape08.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Addons/Pendu/pendu-etape09.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Addons/Pendu/pendu-etape10.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Addons/Pendu/words.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Code/Addon.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Code/Addons/PFC.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Code/Addons/PFC.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Code/Addons/Pendu.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Code/Addons/Pendu.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Code/Addons/src/Icons/PFC.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Code/Addons/src/Icons/Pendu.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Code/Addons/src/words.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Code/KyloBot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Code/Launcher.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Code/NothingGames.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Code/Profiles.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Code/Profiles/KyloBot.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Code/Profiles/Nom du Bot.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Code/Version.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Code/src/NeoliaMC.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Code/src/NeoliaMC.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Code/src/Unknown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Code/src/chewi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Code/src/power-button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Dev/PFC/PFC.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Dev/Pendu/README.MD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Dev/Pendu/pendu-etape00.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Dev/Pendu/pendu-etape01.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Dev/Pendu/pendu-etape02.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Dev/Pendu/pendu-etape03.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Dev/Pendu/pendu-etape04.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Dev/Pendu/pendu-etape05.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Dev/Pendu/pendu-etape06.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Dev/Pendu/pendu-etape07.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Dev/Pendu/pendu-etape08.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Dev/Pendu/pendu-etape09.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Dev/Pendu/pendu-etape10.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/Temp/KyloBot-master/Dev/Pendu/words.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/Version.json" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Version.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +12,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Code/Launcher.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -78,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Code/Version.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="18">
-              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+              <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -150,8 +96,8 @@
         <option value="$PROJECT_DIR$/Code/test.py" />
         <option value="$PROJECT_DIR$/Code/Addon.py" />
         <option value="$PROJECT_DIR$/Code/KyloBot.py" />
-        <option value="$PROJECT_DIR$/Code/Version.json" />
         <option value="$PROJECT_DIR$/Code/Launcher.py" />
+        <option value="$PROJECT_DIR$/Code/Version.json" />
       </list>
     </option>
   </component>
@@ -204,12 +150,6 @@
               <item name="KyloBot" type="462c0819:PsiDirectoryNode" />
               <item name="Code" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KyloBot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KyloBot" type="462c0819:PsiDirectoryNode" />
-              <item name="Code" type="462c0819:PsiDirectoryNode" />
-              <item name="Temp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -438,12 +378,12 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1688988" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1688988" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2749591" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2749591" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -645,13 +585,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Code/Version.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Code/Launcher.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -659,6 +592,13 @@
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/Version.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
         </state>
       </provider>
     </entry>
