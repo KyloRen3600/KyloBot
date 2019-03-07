@@ -3,6 +3,9 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Code/Addons" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Dev/Addons" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Exe/Addons" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Exe2/Addons" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Git/Addons" vcs="Git" />
   </component>
 </project>
