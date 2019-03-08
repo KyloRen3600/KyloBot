@@ -523,6 +523,7 @@ class ChatFrame(tkinter.Frame):
 		self.input_field.bind("<Return>", self.on_entry_press)
 		self.messages.pack(expand=YES, fill=BOTH)
 		self.input_field.pack(expand=YES)
+		self.print_message("[Info] Chargement...")
 		self.print_message("[Info] Veuillez sélectionner un bot")
 		self.print_message("[Info] Pour ajouter un bot allez dans la section \"Configuration\"")
 
